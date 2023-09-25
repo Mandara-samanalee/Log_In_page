@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #fafafa;
+    font-size: 16px;
+}
+
+.box .header {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+
+.box .header .top {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.box .header .logo img{
+    width: 175px;
+    margin: 0 90px 30px;
+}
+
+.box .header .form .input_field  {
+    margin-bottom: 5px;
+}
+
+.box .header .form .input_field .input::placeholder  {
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+
+.box .header .form .input_field .input:focus::placeholder {
+    position: absolute;
+    font-size: 10px;
+    transform: translateY(-10px);
+}
+
+.box .header .form .input_field .input {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+
+.box .header .form .input_field .input:focus {
+    border: 1px solid #b2b2b2;
+}
+
+.box .header .form .btn {
+    margin: 2px;
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box .header .form .btn a{
+    color: #fff;
+    display: block;
+}
+
+.box .header .form .btn:active{
+    transform: scale(0.995);
+}   
+
+.box .header .or .line {
+    height: 2px;
+    width: 160px;
+    background: #efefef;
+}
+
+.box .header .or {
+    display: flex;
+    height: 15px;
+    margin: 15px 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .header .or p{
+    font-size: 14px;
+    color: #999;   
+}
+
+.box .header .option .fb img {
+    height: 20px;
+    width: 20px;
+}
+
+.box .header .option .fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .header .option .fb a{
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.box .header .option .fb a:hover{
+    color: #1a08773c;
+}
+
+.box .header .option .forgot {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box .header .option .forgot a {
+    color: #003569;
+}
+
+.box .header .option .forgot a:hover{
+    color: #1a08773c;
+}
+
+.box .header .container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.box .header .signup {
+    color: #262626;
+    text-align: center;  
+    padding: 20px 20px;  
+}
+
+.box .header .signup a{
+    color: #3897f0;
+}
+
+.box .header .signup p{
+    font-size: 17px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+.box .header .signup a:hover{
+    color: #1a08773c;
+}
+
+.box .header .apps p{
+    text-align: center;
+    font-family: Palatino, URW Palladio L, serif;
+    padding: 15px 0 15px;
+    font-size: 17px;
+}
+
+.box .header .apps img {
+    width: 140px; 
+    height: 40px;
+    margin: 0 5px;
+}
+
+.box .header .apps .icons {
+    margin-left: 70px;
+}
+
+
+ 
